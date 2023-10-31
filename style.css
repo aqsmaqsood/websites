@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.h1{
+    margin-left: 100px;
+}
+.heading{
+    display: flex;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.icons {
+    margin-left: 300px;
+}
+.icons i{
+    margin-left: 0px;
+    border: 1px solid;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    background-color: #34AD54;
+    color: white;
+    transition: all 1s;
+    cursor: pointer;
+}
+.icons i:hover{
+    color: black;
+    border: none;
+}
+.navbar-button{
+   padding-left: 300px;
+    background-color: #34AD54;
+}
+.navbar-button button{
+    height: 80px;
+    width: 80px;
+    margin-left: 30px;
+    background-color: #34AD54;
+    border: none;
+    color: white;
+    transition: all 1s;
+}
+.navbar-button :hover{
+    background-color: #f93;
+}
+.buttons button:first-child{
+    height: 55px;
+    width: 150px;
+    background-color: #34AD54;
+    color: white;
+    border: none;
+    margin-left: 300px;
+} 
+.buttons button:last-child{
+    height: 55px;
+    width: 150px;
+    background-color: #f93;
+    color: white;
+    border: none;
+    margin-top: 70px;
+    margin-left: 20px;
+
+}
+.buttons button:hover{
+    color: black;
+} 
+#cards{
+    display: flex;
+   width: -100px;
+   margin-left: 70px;
+   margin-top: -80px;
+   position: absolute;
+}
+#card1{
+    height: 300px;
+    padding: 30px 50px;
+    width: 600px;
+    background: linear-gradient(rgba(52, 173, 84, .2), rgba(52, 173, 84, .2)), url(./vegetable.png) bottom right no-repeat;
+    background-size: contain;
+    background-color: #34AD54;
+    color: white;
+    font-size: 18px;
+}
+#card2{
+    height: 300px;
+    padding: 30px 50px;
+    background: linear-gradient(rgba(255, 153, 51, .2), rgba(255, 153, 51, .2)), url(./fruit.png) bottom right no-repeat;
+    background-size: contain;
+  background-color: #f93 ;
+  width: 600px;
+   color: white;
+   font-size: 18px;
+}
+.Read{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
